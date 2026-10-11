@@ -1,0 +1,101 @@
+.encabezado{
+    background-color: rgb(228, 228, 228);
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.encabezado a{
+    color: rgb(5, 104, 144);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.encabezado a:hover{
+    color: #9ccbff
+}
+
+body{
+    margin: 0;
+    background-color: #eaf2fb;
+}
+
+.perfil-doctor{
+    background-color: white;
+    border: 1px solid #5e8dbf;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 10px #c4c4c4;
+}
+
+.especialidad-del-doctor{
+    color: #5e8dbf;
+    font-weight: normal;
+    margin: 0 0 1.5rem;
+}
+
+.boton{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #9ccbff;
+    color: #000000;
+    border: none;
+    font-size: 0.8rem;
+}
+
+.boton:hover{
+    background-color: #1263c0;
+    color: white;
+}
+
+.nombre-del-doctor{
+    color: #1263c0;
+    margin: 0 0 1rem;
+}
+
+.review{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto 2rem;
+    padding: 0 1rem;
+}
+
+.tarjeta{
+    flex: 1 1 250px;
+    max-width: 290px;
+    margin: 0.75rem;
+    padding: 1.5rem;
+    background-color: white;
+    border: 2px solid #5e8dbf;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 10px #c4c4c4;
+    transition: box-shadow 0.2s;
+}
+
+.tarjeta:hover{
+    box-shadow: 0 8px 18px #c5d2f7;
+}
+
+.fecha{
+    font-size: small;
+    color: #5a7088;
+    font-style: italic;
+}
+
+.tarjeta h3{
+    color: #1263c0;
+}
